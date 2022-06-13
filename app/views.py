@@ -81,7 +81,8 @@ def edit_profile(request, username):
     user = User.objects.get(username=username)
     if request.method == 'POST':
         user_form = UpdateUserForm(request.POST, instance=request.user)
-        prof_form = UpdateUserProfileForm(request.POST, request.FILES, instance=request.user.profile)
+        prof_form = UpdateUserProfileForm(
+            request.POST, request.FILES, instance=request.user.profile)
         if user_form.is_valid() and prof_form.is_valid():
             user_form.save()
             prof_form.save()
@@ -156,4 +157,3 @@ def search_project(request):
     else:
         message = "You haven't searched for any image category"
     return render(request, 'results.html', {'message': message})
-

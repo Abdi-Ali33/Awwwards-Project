@@ -1,13 +1,17 @@
 .hello{
     color:green;
 }
-#nbar{
+/* #nbar{
     background-color:black;
     color:black;
-}
-.login, #site{
+} */
+.login{
     text-decoration: none;
     color:white;
+}
+#site{
+    color:#ffffff;
+    background: #202121;
 }
 
 .login:hover, #site:hover{
