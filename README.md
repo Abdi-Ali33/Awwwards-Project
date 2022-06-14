@@ -59,7 +59,7 @@ The following technologies have been used on this project:
 * Python
 
 ## Live link
-[Here is the link to the live site]('https://awwwards-project1.herokuapp.com/')
+[Here is the link to the live site](https://awwwards-project1.herokuapp.com/)
 
 # License
 
