@@ -7,7 +7,7 @@
 # Description
 This is application that will allow a user to post a project he/she has created and get it reviewed by others regarding its content ,design and usability.
 ## Screenshot
-![Screenshot1](./screenshots/screenshot)
+![Screenshot1](./screenshots/screenshot.png)
 # Setup / Installation
 * clone the repo:
 
