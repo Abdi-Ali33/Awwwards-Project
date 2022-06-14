@@ -1,3 +1,9 @@
+
+<!-- https://www.cobosrl.co/
+https://marble.studio/  -->
+
+
+
 # Awwwards-Project
 
 ## Author
@@ -51,9 +57,9 @@ The following technologies have been used on this project:
 * Bootstrap
 * Django
 * Python
-<!-- 
+
 ## Live link
-[Here is the link to the live site]() -->
+[Here is the link to the live site]('https://awwwards-project1.herokuapp.com/')
 
 # License
 
