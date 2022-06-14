@@ -26,7 +26,7 @@
                                  width="1900" height="720" class="lazy"/>
                         </a>
                     </div>
-                    <div class="box-content over mi" style="background-image:url({% static 'images/download.jpeg'%})">
+                    <div class="box-content over mi">
                         <a href="{% url 'project' random_post.title %}" class="site-link" aria-label=""></a>
                         <div class="inner vertical-center">
                             <div class="box-info">
@@ -87,7 +87,7 @@
                             <div class="box-breadcrumb">
                                 <div class="box-left">
                                     <strong class="parent">
-                                        <a href="{% url 'project' random_post.title %}">Trending Site</a>
+                                        <a href="{% url 'project' random_post.title %}">Site of the Day </a>
                                     </strong>
                                     <span class="text-x-thin">{{random_post.date|date}}</span>
                                 </div>
