@@ -1,9 +1,3 @@
-
-<!-- https://www.cobosrl.co/
-https://marble.studio/  -->
-
-
-
 # Awwwards-Project
 
 ## Author
