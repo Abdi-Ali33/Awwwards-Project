@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-hkjclucy&rufp++uf3^+9z5cnot+7%^my_-d7@)7ls9ib$6-dk
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['awwwards-project1.herokuapp.com']
 
 
 # Application definition
@@ -88,8 +88,12 @@ WSGI_APPLICATION = 'awwwards.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'dfjrt24njlvom2',
+        'USER': 'uqagcaylitaqio',
+        'PASSWORD': '5e442d54576dfc24c6ec6ad239e5832501f9a8d545363c3acad2fd109a97c56f',
+        'HOST': 'ec2-52-72-56-59.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
@@ -118,7 +122,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Africa/Nairobi'
 
 USE_I18N = True
 
