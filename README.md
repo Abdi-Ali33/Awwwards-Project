@@ -51,3 +51,6 @@ The following technologies have been used on this project:
 * Bootstrap
 * Django
 * Python
+
+## Live link
+[Here is the link to the live site]()
